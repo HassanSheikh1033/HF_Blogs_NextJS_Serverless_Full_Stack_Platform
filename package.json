@@ -11,7 +11,7 @@
   "dependencies": {
     "@auth/core": "^0.37.4",
     "@auth/prisma-adapter": "^2.7.4",
-    "@clerk/nextjs": "^6.10.3",
+    "@clerk/nextjs": "^6.11.3",
     "@prisma/client": "^6.2.1",
     "@radix-ui/react-avatar": "^1.1.2",
     "@radix-ui/react-dialog": "^1.1.5",
