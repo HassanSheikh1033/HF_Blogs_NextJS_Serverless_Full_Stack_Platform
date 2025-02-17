@@ -12,6 +12,7 @@ cloudinary.config({
     api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
+
 // ✅ Schema for validating input fields
 const updateArticleSchema = z.object({
     title: z.string().min(3).max(100),
