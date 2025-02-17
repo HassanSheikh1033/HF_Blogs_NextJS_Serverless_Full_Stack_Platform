@@ -9,7 +9,6 @@ export async function toggleLike(articleId : string) {
   if (!userId) throw new Error("You must be logged in to like an article");
   
 
-
   // Ensure the user exists in the database
   const user = await prisma.user.findUnique({
     where: { clerkUserId: userId },
