@@ -140,3 +140,4 @@ export const createArticles = async (
   revalidatePath("/dashboard");
   redirect("/dashboard");
 };
+
